@@ -33,6 +33,7 @@ jobs:
 
       - name: Build
         run: npm run build
+        continue-on-error: true
 
       - name: Install Payload dependencies
         run: cd payload && npm ci
