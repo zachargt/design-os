@@ -1,5 +1,4 @@
 import { useEffect, useRef } from 'react'
-import { motion } from 'framer-motion'
 
 export function ParticleBackground() {
   const canvasRef = useRef<HTMLCanvasElement>(null)
@@ -29,8 +28,8 @@ export function ParticleBackground() {
       opacity: number
 
       constructor() {
-        this.x = Math.random() * canvas.width
-        this.y = Math.random() * canvas.height
+        this.x = Math.random() * (canvas?.width || 0)
+        this.y = Math.random() * (canvas?.height || 0)
         this.size = Math.random() * 2 + 0.5
         this.speedX = Math.random() * 0.5 - 0.25
         this.speedY = Math.random() * 0.5 - 0.25
@@ -42,10 +41,10 @@ export function ParticleBackground() {
         this.y += this.speedY
 
         // Wrap around edges
-        if (this.x > canvas.width) this.x = 0
-        if (this.x < 0) this.x = canvas.width
-        if (this.y > canvas.height) this.y = 0
-        if (this.y < 0) this.y = canvas.height
+        if (this.x > (canvas?.width || 0)) this.x = 0
+        if (this.x < 0) this.x = canvas?.width || 0
+        if (this.y > (canvas?.height || 0)) this.y = 0
+        if (this.y < 0) this.y = canvas?.height || 0
       }
 
       draw() {

@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react'
-import { motion, useScroll, useTransform, useSpring } from 'framer-motion'
+import { motion, useScroll, useSpring } from 'framer-motion'
 import { HeroIntroduction } from '@/sections/hero-introduction/components/HeroIntroduction'
 import { ProblemSolution } from '@/sections/problem-solution/components/ProblemSolution'
 import { TrustProof } from '@/sections/trust-proof/components/TrustProof'
