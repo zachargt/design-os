@@ -17,8 +17,8 @@
       "variant": "primary"
     },
     "proofPoints": [
-      "Gemiddeld 6 uur per week terug",
-      "Bekroond accountant"
+      { "text": "Gemiddeld 6 uur per week terug" },
+      { "text": "Bekroond accountant" }
     ]
   },
   "footer": {

@@ -117,16 +117,6 @@ export function CMSAdmin() {
     }
   }
 
-  // Array item management functions
-  const addArrayItem = <T,>(array: T[], newItem: T, setter: (arr: T[]) => void) => {
-    setter([...array, newItem])
-  }
-
-  const removeArrayItem = <T,>(array: T[], index: number, setter: (arr: T[]) => void) => {
-    const newArray = array.filter((_, i) => i !== index)
-    setter(newArray)
-  }
-
   if (loading) {
     return (
       <div className="min-h-screen bg-stone-50 dark:bg-stone-950 flex items-center justify-center">
