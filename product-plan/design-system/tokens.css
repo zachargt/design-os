@@ -1,0 +1,30 @@
+/* MOZE Finance Design Tokens */
+
+:root {
+  /* Color Tokens */
+  --color-primary: theme('colors.sky.500');
+  --color-primary-hover: theme('colors.sky.600');
+  --color-secondary: theme('colors.rose.500');
+  --color-secondary-hover: theme('colors.rose.600');
+  --color-neutral-50: theme('colors.slate.50');
+  --color-neutral-100: theme('colors.slate.100');
+  --color-neutral-200: theme('colors.slate.200');
+  --color-neutral-300: theme('colors.slate.300');
+  --color-neutral-400: theme('colors.slate.400');
+  --color-neutral-500: theme('colors.slate.500');
+  --color-neutral-600: theme('colors.slate.600');
+  --color-neutral-700: theme('colors.slate.700');
+  --color-neutral-800: theme('colors.slate.800');
+  --color-neutral-900: theme('colors.slate.900');
+  --color-neutral-950: theme('colors.slate.950');
+
+  /* Typography Tokens */
+  --font-heading: 'Space Grotesk', sans-serif;
+  --font-body: 'Manrope', sans-serif;
+  --font-mono: 'IBM Plex Mono', monospace;
+}
+
+/* Usage Examples:
+ * background-color: var(--color-primary);
+ * font-family: var(--font-heading);
+ */

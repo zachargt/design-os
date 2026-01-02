@@ -1,0 +1,33 @@
+task_groups:
+  - name: "Payload Project Setup and Configuration"
+    claude_code_subagent: implementer
+  - name: "HeroSection Collection"
+    claude_code_subagent: implementer
+  - name: "ProblemSolutionSection Collection"
+    claude_code_subagent: implementer
+  - name: "TrustProofSection Collection"
+    claude_code_subagent: implementer
+  - name: "ConversionFooterSection Collection"
+    claude_code_subagent: implementer
+  - name: "V1 Content Extraction and Migration"
+    claude_code_subagent: implementer
+  - name: "API Client and Type Definitions"
+    claude_code_subagent: implementer
+  - name: "Hero/Introduction Section Component"
+    claude_code_subagent: implementer
+  - name: "Problem/Solution Section Component"
+    claude_code_subagent: implementer
+  - name: "Trust/Proof Section Component"
+    claude_code_subagent: implementer
+  - name: "Conversion/Footer Section Component"
+    claude_code_subagent: implementer
+  - name: "Landing Page Composition and Shared Components"
+    claude_code_subagent: implementer
+  - name: "Responsive Design Implementation"
+    claude_code_subagent: implementer
+  - name: "Accessibility Compliance (WCAG 2.1 AA)"
+    claude_code_subagent: implementer
+  - name: "Production Configuration and Deployment"
+    claude_code_subagent: implementer
+  - name: "Integration Testing and Quality Assurance"
+    claude_code_subagent: implementer

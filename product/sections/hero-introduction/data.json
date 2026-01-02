@@ -1,0 +1,41 @@
+{
+  "_meta": {
+    "models": {
+      "hero": "De hoofdcontent van de hero sectie met headline, subhead en call-to-action knoppen.",
+      "trustBadges": "Certificeringen, awards, en trust signals die geloofwaardigheid opbouwen. Voorbeelden: 'Bekroond accountant', 'AVG-compliant', 'Beveiligde verbindingen', 'Operationeel binnen 14 dagen'."
+    },
+    "relationships": [
+      "De hero sectie toont één set van content (headline, subhead, CTAs)",
+      "TrustBadges verschijnen onderaan de hero als trust line"
+    ]
+  },
+  "hero": {
+    "headline": "Financiën met een creatief directeur.",
+    "subhead": "MOZE neemt je administratie over, houdt deadlines in de gaten en geeft je helder inzicht – zonder grijze pakken of stoffige spreadsheets.",
+    "primaryCta": {
+      "label": "Plan een gesprek met MoMo",
+      "variant": "primary"
+    },
+    "secondaryCta": {
+      "label": "Bekijk de flow",
+      "variant": "secondary"
+    }
+  },
+  "trustBadges": [
+    {
+      "id": "badge-1",
+      "label": "Bekroond accountant",
+      "icon": "award"
+    },
+    {
+      "id": "badge-2",
+      "label": "Operationeel binnen 14 dagen",
+      "icon": "clock"
+    },
+    {
+      "id": "badge-3",
+      "label": "AVG-compliant",
+      "icon": "shield-check"
+    }
+  ]
+}

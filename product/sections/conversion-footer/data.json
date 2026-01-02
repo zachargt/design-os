@@ -1,0 +1,40 @@
+{
+  "_meta": {
+    "models": {
+      "finalCta": "De laatste oproep tot actie met headline, copy en CTA.",
+      "footer": "Footer met bedrijfsinfo, links en tagline."
+    },
+    "relationships": [
+      "Final CTA is de laatste conversie-mogelijkheid",
+      "Footer bevat bedrijfsinfo en legal links"
+    ]
+  },
+  "finalCta": {
+    "headline": "Tijd om je administratie écht over te dragen.",
+    "copy": "In een gesprek van 20 minuten laat MoMo zien hoe jouw financiën er straks uitzien. Geen verplichtingen, wel direct duidelijkheid.",
+    "cta": {
+      "label": "Plan mijn gesprek",
+      "variant": "primary"
+    },
+    "proofPoints": [
+      "Gemiddeld 6 uur per week terug",
+      "Bekroond accountant"
+    ]
+  },
+  "footer": {
+    "address": "Keizersgracht 241, Amsterdam",
+    "links": [
+      {
+        "id": "link-1",
+        "label": "Privacy",
+        "href": "/privacy"
+      },
+      {
+        "id": "link-2",
+        "label": "Voorwaarden",
+        "href": "/voorwaarden"
+      }
+    ],
+    "tagline": "Perfecte cijfers. Zonder de grijze pakken."
+  }
+}

@@ -7,11 +7,21 @@ import { SectionPage } from '@/components/SectionPage'
 import { ScreenDesignPage, ScreenDesignFullscreen } from '@/components/ScreenDesignPage'
 import { ShellDesignPage, ShellDesignFullscreen } from '@/components/ShellDesignPage'
 import { ExportPage } from '@/components/ExportPage'
+import { LandingPageEnhanced } from '@/components/LandingPageEnhanced'
+import { CMSAdmin } from '@/pages/CMSAdmin'
 
 export const router = createBrowserRouter([
   {
     path: '/',
     element: <ProductPage />,
+  },
+  {
+    path: '/landing',
+    element: <LandingPageEnhanced />,
+  },
+  {
+    path: '/cms-admin',
+    element: <CMSAdmin />,
   },
   {
     path: '/data-model',

@@ -1,0 +1,73 @@
+{
+  "_meta": {
+    "models": {
+      "problem": "De probleem sectie met headline en pijnpunten die de chaos beschrijven.",
+      "benefits": "Oplossingsblokken die MOZE's waardepropositie uitleggen. Elk benefit heeft een titel, beschrijving, en resultaat."
+    },
+    "relationships": [
+      "Problem sectie introduceert de pijnpunten",
+      "Benefits sectie presenteert de oplossing met vier cards"
+    ]
+  },
+  "problem": {
+    "headline": "Bonnetjes in een schoenendoos. Deadlines in je achterhoofd. Boetes op de mat.",
+    "painPoints": [
+      {
+        "id": "pain-1",
+        "text": "Vijf tools, nul overzicht – en ergens staat nog een btw-aangifte open",
+        "icon": "layers"
+      },
+      {
+        "id": "pain-2",
+        "text": "Een accountant die pas reageert als het te laat is",
+        "icon": "clock"
+      },
+      {
+        "id": "pain-3",
+        "text": "Cashflow-inzicht? Dat hoor je achteraf, als het al pijn doet",
+        "icon": "trending-down"
+      }
+    ],
+    "cta": {
+      "label": "Krijg een snelle scan",
+      "variant": "secondary"
+    }
+  },
+  "solution": {
+    "intro": "Van gedoe naar grip. Eén partij die alles regelt – en er ook nog goed uitziet.",
+    "cta": {
+      "label": "Plan je gesprek – klaar in 20 minuten",
+      "variant": "primary"
+    }
+  },
+  "benefits": [
+    {
+      "id": "benefit-1",
+      "icon": "check-circle",
+      "title": "Alles geregeld",
+      "description": "Administratie, btw, loonheffing, jaarrekening. Wij dienen in, jij tekent af.",
+      "result": "Nul boetes. Altijd actueel."
+    },
+    {
+      "id": "benefit-2",
+      "icon": "bar-chart",
+      "title": "Inzicht zonder moeite",
+      "description": "Je bankrekening koppelt automatisch. Jij ziet direct waar je staat.",
+      "result": "Cashflow helder in één oogopslag."
+    },
+    {
+      "id": "benefit-3",
+      "icon": "phone-call",
+      "title": "Advies vóór je erom vraagt",
+      "description": "MoMo ziet problemen aankomen en belt je voordat het escaleert.",
+      "result": "Rust in je hoofd, ruimte voor groei."
+    },
+    {
+      "id": "benefit-4",
+      "icon": "message-square",
+      "title": "Contact zoals jij het wil",
+      "description": "Slack, Teams of portal. Reactie binnen een werkdag. Geen belrondes.",
+      "result": "Je hele team kan mee, zonder gedoe."
+    }
+  ]
+}

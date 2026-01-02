@@ -1,0 +1,95 @@
+{
+  "_meta": {
+    "models": {
+      "testimonial": "Klantverhalen en quotes voor social proof.",
+      "trustBadges": "Certificeringen en trust signals.",
+      "differentiators": "Waarom MOZE anders is.",
+      "faqs": "Veelgestelde vragen met antwoorden."
+    },
+    "relationships": [
+      "Testimonial toont concrete resultaten voor social proof",
+      "TrustBadges versterken geloofwaardigheid",
+      "Differentiators leggen uit waarom MOZE uniek is",
+      "FAQs beantwoorden de meest gestelde vragen"
+    ]
+  },
+  "socialProof": {
+    "headline": "Ze begonnen sceptisch. Nu zijn ze fan.",
+    "microCta": {
+      "label": "Zie hoe zij het doen",
+      "variant": "secondary"
+    }
+  },
+  "testimonial": {
+    "id": "testimonial-1",
+    "quote": "We dachten: weer zo'n accountant. Twee weken later hadden we 6 uur per week terug en ons eerste boetevrije jaar ooit.",
+    "author": "Lisa van den Berg",
+    "role": "Oprichter",
+    "company": "Studio Bloom"
+  },
+  "trustBadges": [
+    {
+      "id": "badge-1",
+      "label": "Bekroond accountant",
+      "icon": "award"
+    },
+    {
+      "id": "badge-2",
+      "label": "AVG-compliant",
+      "icon": "shield-check"
+    },
+    {
+      "id": "badge-3",
+      "label": "Beveiligde verbindingen",
+      "icon": "lock"
+    }
+  ],
+  "differentiation": {
+    "headline": "Waarom MOZE?",
+    "items": [
+      {
+        "id": "diff-1",
+        "text": "Geen lelijke dashboards. Cijfers die je daadwerkelijk wíl bekijken."
+      },
+      {
+        "id": "diff-2",
+        "text": "Over twee weken draait alles. Niet over twee maanden."
+      },
+      {
+        "id": "diff-3",
+        "text": "Eén aanspreekpunt voor administratie, belasting, salarissen én advies."
+      },
+      {
+        "id": "diff-4",
+        "text": "Automatisering waar het kan, een mens aan de lijn als het moet."
+      }
+    ]
+  },
+  "faqs": [
+    {
+      "id": "faq-1",
+      "question": "Hoe snel kan ik starten?",
+      "answer": "Gemiddeld twee weken. Je krijgt een duidelijke checklist, wij pakken de rest."
+    },
+    {
+      "id": "faq-2",
+      "question": "Is mijn data veilig?",
+      "answer": "Ja. Versleutelde verbindingen, tweestapsverificatie en volledige AVG-compliance."
+    },
+    {
+      "id": "faq-3",
+      "question": "Wat kost dit?",
+      "answer": "Een vast bedrag per maand, afhankelijk van je situatie. Geen verrassingen achteraf."
+    },
+    {
+      "id": "faq-4",
+      "question": "Past dit bij mijn huidige tools?",
+      "answer": "We koppelen met je bank, je boekhoudsoftware en je salarissysteem."
+    },
+    {
+      "id": "faq-5",
+      "question": "Hoe bereik ik jullie?",
+      "answer": "Via Slack, Teams of ons portal. Reactie binnen één werkdag."
+    }
+  ]
+}
